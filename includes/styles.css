@@ -1,0 +1,200 @@
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+
+	{
+
+		margin:0;
+		padding:0;
+
+	}
+
+
+* { margin: 0; padding: 0; box-sizing:border-box;}
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	font-size:100%;
+}
+
+/* Added by Larry Ullman: */
+.error, .ad {
+	font-weight: bold;
+	color: #C00
+}
+
+body
+	{
+
+		font-family: 'Ubuntu', sans-serif;
+		font-family: Helvetica, Times, Geneva;
+		margin:0;
+  	padding: 0;
+		width: 100%;
+		height:auto;
+		background-color:#FFF;
+		color:#333;
+		text-align: center;
+
+	}
+
+
+
+.main-content {
+	font-family: 'Ubuntu', sans-serif;
+	font-family: Helvetica, Times, Geneva;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding: 10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: auto;
+	text-align: center;
+	width:100%;
+	max-width:1080px;
+	}
+
+/* Below rules are for view_users.php, table styles */
+
+.tbl {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#tbl_view_users {
+
+}
+
+.tbl_row {
+	display: table-row;
+	font-size: 14px;
+}
+
+.tbl_row:nth-child(odd) {
+
+	background-color:#e7e7e7; color:#333;
+
+}
+
+.tbl_row:nth-child(even) {
+
+	background-color:#f7f7f7; color:#333;
+
+}
+
+.tbl_row:hover {
+
+	background-color:#5b5b5b;
+	color:#fff;
+
+}
+
+#tbl_headings_row {
+	background-color:#212121;
+	color:#ffffff;
+}
+
+.tbl_cell {
+	display: table-cell;
+	width: auto;
+	padding: 8px;
+	vertical-align: middle;
+	border: solid 1px #fff;
+}
+#tbl_heading_id, #tbl_heading_lname, #tbl_heading_fname, #tbl_heading_email, #tbl_heading_datereg, #tbl_heading_update_rec, #tbl_heading_delete_rec {
+
+	font-weight:bold;
+
+}
+
+#tbl_heading_id { color:#ffffff; }
+#tbl_heading_lname { color:#fff; }
+#tbl_heading_fname { color:#fff; }
+#tbl_heading_email { color:#fff; }
+#tbl_heading_datereg { color:#fff; }
+#tbl_heading_update_rec { color:#fff; }
+#tbl_heading_delete_rec { color:#fff; }
+
+#tbl_heading_
+#tbl_heading_lname:active { color:green; }
+
+#tbl_cell_update_rec, #tbl_cell_delete_rec {
+
+
+	text-align:center;
+	cursor:pointer;
+	transition:100ms all ease-in-out;
+	background-color:#019755;
+	color:#ffffff;
+
+}
+
+#tbl_cell_update_rec a { color:#ffffff; width:100%; display:block;}
+#tbl_cell_delete_rec a { color:#ffffff; width:100%; display:block;}
+
+#tbl_cell_update_rec:hover {
+
+	background-color:#5b5b5b;
+
+}
+
+#tbl_cell_update_rec:active{
+
+	background-color:#000000;
+	font-size:0.8rem;
+
+}
+
+#tbl_cell_delete_rec:hover {
+
+	background-color:#5b5b5b;
+
+}
+
+#tbl_cell_delete_rec:active{
+
+	background-color:#000000;
+	font-size:0.8rem;
+
+}
+
+.red { color:red; }
+
+.pagination_block {
+
+	display:inline-block;
+	width:auto;
+	height:auto;
+
+}
+
+.pagination_block a {
+	color: #000000;
+	padding: 6px 12px;
+	border: dotted 1px #dfdfdf;
+	margin: 2px;
+	font-size: 14px;
+	display: inline-block;
+
+}
+
+.active {
+
+	background-color:#1a1a1a;
+	color:#ffffff !important;
+	text-decoration:none;
+
+}
+
+.pagination_block a:hover:not(.active)	{
+
+	background-color: #e7e7e7;
+
+	}
+
+
+
+}
