@@ -46,20 +46,23 @@ body
 
 
 
-.main-content {
-	font-family: 'Ubuntu', sans-serif;
-	font-family: Helvetica, Times, Geneva;
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
-	padding: 10px;
-	left: 0;
-	right: 0;
-	margin: auto;
-	height: auto;
-	text-align: center;
-	width:100%;
-	max-width:1080px;
+	.main-content {
+		font-family: 'Ubuntu', sans-serif;
+		font-family: Helvetica, Times, Geneva;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		padding: 10px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		height: auto;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		max-width: 1080px;
 	}
 
 /* Below rules are for view_users.php, table styles */
